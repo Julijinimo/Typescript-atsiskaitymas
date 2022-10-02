@@ -1,0 +1,15 @@
+{
+  "name": "typescript-lesson-2",
+  "version": "1.0.0",
+  "description": "1. Failus skaitykite ir atlikite tokia tvarka:   * TS-2-typed-functions   * TS-2-typed-objects   * TS-2-typed-arrays   * TS-2-exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

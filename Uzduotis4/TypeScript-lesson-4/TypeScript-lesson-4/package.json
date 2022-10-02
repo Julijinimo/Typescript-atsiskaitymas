@@ -1,0 +1,15 @@
+{
+  "name": "typescript-lesson-4",
+  "version": "1.0.0",
+  "description": "Užduotis atlikite tokia tvarka * užduotys/src/union-operators.ts * užduotys/src/tuples.ts * užduotys/src/assertions.ts * užduotys/src/literal-types.ts * užduotys/src/enums.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescritp": "^1.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "typescript-lesson-10",
+  "version": "1.0.0",
+  "description": "Šios praktikos tikslas įsisavinti abstrakcijos ir polimorfizmo žinias, naudojat abstrakčias klases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "typescript-lesson-9",
+  "version": "1.0.0",
+  "description": "1. Sukurkite klasę WaterVehicle, kuri turėtų savybes:   brand: string,   model: string,   year: number,   maxDepth: number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

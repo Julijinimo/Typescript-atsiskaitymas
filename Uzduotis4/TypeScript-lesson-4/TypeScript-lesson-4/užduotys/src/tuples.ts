@@ -37,8 +37,8 @@ console.group('Tuples - užduotys');
 
   console.group('1. Sukurkite žmogaus vardo ir amžiaus rinkinį');
   {
-    const person1: PersonTuple = ['Kerpis', 12];
-    const person2: PersonTuple = ['Kiaunė', 24];
+    const person1: PersonTuple = ['Zmogus', 23];
+    const person2: PersonTuple = ['Zombis', 44];
 
     console.log(person1, person2);
   }
@@ -47,12 +47,12 @@ console.group('Tuples - užduotys');
   console.group('2. Sukurkite šuns šeimininko ir šuns rinkinį(pradžioje teks sukurti Šuns ir Šeiminiko tipus)');
   {
     const friendship1: FriendshipTuple = [{
-      name: 'Agnolis',
-      age: 12
+      name: 'Zmogus',
+      age: 99
     }, {
-      name: 'Barkis',
-      age: 2,
-      breed: 'Dalmantin'
+      name: 'So be odegos',
+      age: 10,
+      breed: 'Tax'
     }];
 
     console.log(friendship1);

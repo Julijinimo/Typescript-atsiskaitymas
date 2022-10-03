@@ -74,11 +74,11 @@ console.group('Union operators - užduotys');
 console.group('1. Aprašykite objekto tipą Accommodation, kurio savybė "type" būtų, "House" arba "Flat"');
   {
     const accommodation1: Accommodation = {
-      address: 'Sausainių gatvė 13, Vinciučškiai',
+      address: 'Plytų g. 44, Domeikava',
       type: 'House',
     };
     const accommodation2: Accommodation = {
-      address: 'Falantierų pr. 58-9a, Didelmiestis',
+      address: 'Blynų al. 66-b, Kaunas',
       type: 'Flat',
     };
 
@@ -92,13 +92,13 @@ console.group('1. Aprašykite objekto tipą Accommodation, kurio savybė "type" 
   console.group('2. Aprašykite objekto tipą Car, kurio savybė "transmission" būtų, "Automatic" arba "Manual"');
   {
     const car1: Car = {
-      brand: 'Toyota',
-      model: 'Yaris',
+      brand: 'Audi',
+      model: 'A4',
       transmission: 'Automatic',
     };
     const car2: Car = {
-      brand: 'Toyota',
-      model: 'Avensis',
+      brand: 'Audi',
+      model: 'A6',
       transmission: 'Manual',
     };
     console.log({
@@ -111,19 +111,19 @@ console.group('1. Aprašykite objekto tipą Accommodation, kurio savybė "type" 
   console.group('3. Aprašykite tipą, kuris kintamajam leistų būti: arba Accommodation masyvu, arba Car masyvu');
   {
     const assets1: Assets = [{
-      address: 'Sausainių gatvė 13, Vinciučškiai',
+      address: 'Plytų g. 44, Domeikava',
       type: 'House',
     }, {
-      address: 'Falantierų pr. 58-9a, Didelmiestis',
+      address: 'Blynų al. 66-b, Kaunas',
       type: 'Flat',
     }];
     const assets2: Assets = [{
-      brand: 'Toyota',
-      model: 'Yaris',
+      brand: 'Audi',
+      model: 'A4',
       transmission: 'Automatic',
     }, {
-      brand: 'Toyota',
-      model: 'Avensis',
+      brand: 'Audi',
+      model: 'A6',
       transmission: 'Manual',
     }];
     console.table(assets1);
